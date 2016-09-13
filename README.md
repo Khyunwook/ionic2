@@ -12,6 +12,10 @@ Http service doesn't return an array, it returns an Observable.
 this.myName = "Josh"
 <something [myname] = "myName">
 //he myname property would be set to “Josh”, because myName would get evaluated first in this instance.
+
+<ion-checkbox checked="true"></ion-checkbox> 
+-> <ion-checkbox [checked]="item.checked"></ion-checkbox>
+
 ```
 
 #Observable
