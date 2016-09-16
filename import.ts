@@ -6,7 +6,6 @@ import { FORM_DIRECTIVES } from '@angular/common';
 
 import { Control } from '@angular/common';
 //will allow us to create a “Control” for inputs (which will supply our Observable).
-
 //-----------ex---------------------------- 
 this.subredditControl = new Control();
 
