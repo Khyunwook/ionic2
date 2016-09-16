@@ -3,3 +3,6 @@ import { Http } from '@angular/http';
 
 import { FORM_DIRECTIVES } from '@angular/common'; 
 //FORM_DIRECTIVES imports all the form related directives from the angular library
+
+import { Control } from '@angular/common';
+//will allow us to create a “Control” for inputs (which will supply our Observable).
