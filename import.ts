@@ -11,3 +11,9 @@ this.subredditControl = new Control();
 this.subredditControl.valueChanges.subscribe( value => {} );
 //input창의 변화를 감지하고 변화를 subscribe
 //-----------------------------------------
+
+import { InAppBrowser } from 'ionic-native';
+//앱 안에서 링크 클릭 시 해당 링크로 이동
+//-----------ex---------------------------
+InAppBrowser.open("http://reddit.com"+);
+//-----------------------------------------
